@@ -16,12 +16,6 @@ StatusWatch monitors supported service incidents and delivers notifications dire
 
 ---
 
-## 📸 Example
-
-![StatusWatch incident notification](docs/images/incident-example.png)
-
----
-
 ## 🤖 Commands
 
 StatusWatch uses Discord slash commands for configuration and management.
