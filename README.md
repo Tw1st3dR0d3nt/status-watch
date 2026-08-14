@@ -92,7 +92,7 @@ StatusWatch is an independent third-party Discord application and is not owned, 
 
 Use of StatusWatch is also subject to applicable Discord policies and terms.
 
-**[Terms of Service](https://YOUR-USERNAME.github.io/StatusWatch/terms.html)** · **[Privacy Policy](https://YOUR-USERNAME.github.io/StatusWatch/privacy.html)**
+**[Terms of Service](https://tw1st3dr0d3nt.github.io/status-watch/terms.html)** · **[Privacy Policy](https://tw1st3dr0d3nt.github.io/status-watch/privacy.html)**
 
 ---
 
