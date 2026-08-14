@@ -76,6 +76,8 @@ The information available may vary depending on the incident and the monitored s
 
 ---
 
+<a id="getting-started"></a>
+
 ## ⚙️ Getting Started
 
 1. Add StatusWatch to your Discord server.
