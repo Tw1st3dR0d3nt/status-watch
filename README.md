@@ -16,6 +16,14 @@ StatusWatch monitors supported service incidents and delivers notifications dire
 
 ---
 
+## 🔒 Proprietary Software
+
+StatusWatch is proprietary software.
+
+The StatusWatch source code and implementation are proprietary and may not be redistributed, modified, or used commercially without explicit permission.
+
+---
+
 ## 📸 Example
 
 ![StatusWatch incident notification](docs/images/incident-example.png)
@@ -60,7 +68,7 @@ The information available may vary depending on the incident and the monitored s
 2. Run `/setincidentchannel`.
 3. Select the channel where incident notifications should be posted.
 
-StatusWatch is ready to monitor supported incidents.
+Once configured, StatusWatch will automatically monitor supported incidents and deliver updates to your configured channel.
 
 ---
 
@@ -82,7 +90,7 @@ For details about data collection, usage, and retention, see the [Privacy Policy
 
 ## 📜 Legal
 
-StatusWatch is an independent third-party Discord application and is not owned, operated, sponsored, or endorsed by Discord Inc.
+StatusWatch is an independent, proprietary third-party Discord application and is not owned, operated, sponsored, or endorsed by Discord Inc.
 
 Use of StatusWatch is also subject to applicable Discord policies and terms.
 
