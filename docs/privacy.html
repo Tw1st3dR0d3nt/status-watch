@@ -40,11 +40,11 @@
 
             <p>
                 This Privacy Policy explains what information StatusWatch
-                collects, how it is used, and how it is protected.
+                processes, how it is used, and how it is retained.
             </p>
 
             <div class="legal-meta">
-                Effective date: August 13, 2026
+                Effective date: August 14, 2026
             </div>
         </div>
     </section>
@@ -59,15 +59,15 @@
                     <h2>1. Overview</h2>
 
                     <p>
-                        StatusWatch is a Discord application designed to provide
-                        real-time incident monitoring and service-status
-                        notifications within Discord servers.
+                        StatusWatch is a Discord application that polls
+                        DiscordStatus.com for reported incidents and delivers
+                        incident notifications to configured Discord channels.
                     </p>
 
                     <p>
-                        We aim to collect and retain only the information
-                        reasonably necessary for StatusWatch to provide and
-                        maintain its functionality.
+                        StatusWatch is designed to process only the information
+                        reasonably necessary to operate, configure, and maintain
+                        this functionality.
                     </p>
                 </section>
 
@@ -76,148 +76,160 @@
                     <h2>2. Information StatusWatch May Process</h2>
 
                     <p>
-                        Depending on how StatusWatch is configured and used,
-                        the application may process limited Discord-related
-                        information necessary to provide its functionality.
+                        StatusWatch may process limited Discord-related
+                        information required for its operation. This may include:
                     </p>
-
-                    <p>This may include:</p>
 
                     <ul>
                         <li>
-                            Discord server identifiers needed to associate
-                            configuration with a particular server.
+                            Discord server (guild) IDs used to associate
+                            configuration with a server.
                         </li>
 
                         <li>
-                            Discord channel identifiers used for configured
-                            incident notifications.
+                            Discord channel IDs used for incident notifications.
                         </li>
 
                         <li>
-                            Discord user identifiers when required to identify
-                            the administrator performing a configuration action.
+                            Discord user IDs used for access-control and
+                            blacklist functionality.
                         </li>
 
                         <li>
-                            Configuration information necessary for StatusWatch
-                            to operate within a server.
+                            Discord message IDs associated with incident
+                            notifications so existing notifications can be
+                            updated.
                         </li>
 
                         <li>
-                            Incident and status information generated or
-                            retrieved as part of StatusWatch's monitoring
-                            functionality.
+                            Incident IDs and incident-update IDs used to track
+                            incidents that have already been processed.
+                        </li>
+
+                        <li>
+                            Configuration and operational state necessary for
+                            StatusWatch to function.
                         </li>
                     </ul>
 
                     <p>
-                        StatusWatch does not intentionally collect information
-                        such as passwords, Discord account credentials, payment
-                        card information, or the contents of private messages.
+                        StatusWatch may also receive limited information from
+                        Discord while operating, such as server and channel
+                        information needed to perform configured actions.
                     </p>
                 </section>
 
 
                 <section>
-                    <h2>3. Information We Do Not Intentionally Collect</h2>
+                    <h2>3. Blacklists and Access Control</h2>
 
                     <p>
-                        StatusWatch is not designed to collect or maintain
-                        personal profiles about Discord users.
+                        StatusWatch includes administrative blacklist
+                        functionality. Discord user IDs may be stored when a
+                        user is blacklisted, and Discord server IDs may be stored
+                        when a server is blacklisted.
                     </p>
 
                     <p>
-                        StatusWatch does not intentionally collect or store:
+                        These identifiers are used only to determine whether
+                        StatusWatch should allow its commands or functionality
+                        to be used by the affected user or server.
                     </p>
-
-                    <ul>
-                        <li>Discord account passwords.</li>
-                        <li>Authentication credentials other than the bot's own operational credentials.</li>
-                        <li>Payment or financial information.</li>
-                        <li>Private messages or direct-message conversations.</li>
-                        <li>Unrelated message content.</li>
-                    </ul>
                 </section>
 
 
                 <section>
-                    <h2>4. How Information Is Used</h2>
+                    <h2>4. Incident and Notification Data</h2>
+
+                    <p>
+                        StatusWatch retrieves incident information from
+                        DiscordStatus.com, including incident identifiers,
+                        incident updates, status information, names, timelines,
+                        and incident links.
+                    </p>
+
+                    <p>
+                        StatusWatch maintains limited operational state so it can
+                        determine whether an incident or update has already been
+                        processed and update existing Discord notifications when
+                        an incident changes.
+                    </p>
+
+                    <p>
+                        Resolved incidents are removed from active incident
+                        tracking after the associated notification updates have
+                        been successfully processed.
+                    </p>
+                </section>
+
+
+                <section>
+                    <h2>5. How Information Is Used</h2>
 
                     <p>
                         Information processed by StatusWatch is used only as
-                        reasonably necessary to operate, configure, maintain,
-                        secure, and improve the application.
+                        reasonably necessary to:
                     </p>
 
-                    <p>
-                        Examples include associating a configured notification
-                        channel with a Discord server, processing incident
-                        information, maintaining configuration state, and
-                        troubleshooting operational problems.
-                    </p>
-                </section>
-
-
-                <section>
-                    <h2>5. Server Configuration</h2>
+                    <ul>
+                        <li>configure incident notifications for Discord servers;</li>
+                        <li>deliver and update incident notifications;</li>
+                        <li>enforce administrative blacklist and access controls;</li>
+                        <li>maintain incident-tracking state; and</li>
+                        <li>troubleshoot and maintain the application.</li>
+                    </ul>
 
                     <p>
-                        StatusWatch supports configuration on a
-                        server-by-server basis.
-                    </p>
-
-                    <p>
-                        A server's configuration may include information such
-                        as the Discord server identifier and the channel
-                        designated to receive incident notifications.
-                    </p>
-
-                    <p>
-                        Configuration for one Discord server is intended to
-                        remain separate from configuration belonging to other
-                        servers.
+                        StatusWatch does not use this information for advertising
+                        profiles or targeted advertising.
                     </p>
                 </section>
 
 
                 <section>
-                    <h2>6. Incident and Runtime Data</h2>
+                    <h2>6. Information Not Intentionally Collected</h2>
 
                     <p>
-                        StatusWatch may maintain operational data necessary to
-                        track incidents and provide incident timelines or
-                        updates.
+                        StatusWatch is not designed to intentionally collect or
+                        store:
                     </p>
 
-                    <p>
-                        Such information is used to support the application's
-                        incident-monitoring functionality and is not intended
-                        to be used to build advertising profiles or sell
-                        personal information.
-                    </p>
+                    <ul>
+                        <li>Discord account passwords;</li>
+                        <li>payment or financial information;</li>
+                        <li>private messages or direct-message conversations;</li>
+                        <li>Discord authentication credentials belonging to users; or</li>
+                        <li>unrelated message content for storage or profiling.</li>
+                    </ul>
 
                     <p>
-                        Operational data may be retained for as long as
-                        reasonably necessary to provide the service,
-                        troubleshoot issues, maintain continuity, or satisfy
-                        applicable operational requirements.
+                        StatusWatch uses Discord's APIs and permissions as
+                        necessary for the bot to operate, but the application does
+                        not intentionally retain unrelated Discord content.
                     </p>
                 </section>
 
 
                 <section>
-                    <h2>7. Discord API</h2>
+                    <h2>7. Discord and Third-Party Services</h2>
 
                     <p>
-                        StatusWatch uses Discord's services and APIs to provide
-                        its functionality.
+                        StatusWatch operates through Discord and uses Discord's
+                        services and APIs. Information available to StatusWatch
+                        through Discord is also subject to Discord's own policies
+                        and technical requirements.
                     </p>
 
                     <p>
-                        Information available to StatusWatch through Discord is
-                        subject to Discord's own policies and technical
-                        requirements.
+                        StatusWatch retrieves incident information from
+                        DiscordStatus.com. DiscordStatus.com is an independent
+                        third-party service and may process information according
+                        to its own terms and privacy practices.
+                    </p>
+
+                    <p>
+                        StatusWatch does not control the privacy practices of
+                        Discord, DiscordStatus.com, or other third-party services.
                     </p>
 
                     <p>
@@ -227,36 +239,14 @@
                             target="_blank"
                             rel="noopener noreferrer"
                         >Discord's Privacy Policy</a>
-                        for information about how Discord handles information
+                        for information about Discord's handling of information
                         on its platform.
                     </p>
                 </section>
 
 
                 <section>
-                    <h2>8. Third-Party Services</h2>
-
-                    <p>
-                        StatusWatch may rely on third-party services to provide
-                        or support monitoring functionality.
-                    </p>
-
-                    <p>
-                        When StatusWatch obtains incident or service-status
-                        information from an external provider, that provider
-                        may independently process information according to its
-                        own privacy policy and terms.
-                    </p>
-
-                    <p>
-                        StatusWatch does not control the privacy practices of
-                        third-party services.
-                    </p>
-                </section>
-
-
-                <section>
-                    <h2>9. Data Sharing</h2>
+                    <h2>8. Data Sharing</h2>
 
                     <p>
                         StatusWatch does not sell, rent, or trade personal
@@ -264,61 +254,52 @@
                     </p>
 
                     <p>
-                        Information may be disclosed when reasonably necessary
-                        to operate the service, comply with applicable law,
+                        Information may be disclosed when reasonably necessary to
+                        operate the application, comply with applicable law,
                         protect the security of the service, or respond to
                         legitimate legal requests.
                     </p>
+                </section>
+
+
+                <section>
+                    <h2>9. Data Security</h2>
 
                     <p>
-                        StatusWatch may also rely on service providers or
-                        infrastructure providers necessary to operate the
-                        application.
+                        Reasonable measures are used to protect information
+                        handled by StatusWatch, including restricting access to
+                        the bot's operational systems and configuration data.
+                    </p>
+
+                    <p>
+                        No electronic storage or transmission system can be
+                        guaranteed to be completely secure.
                     </p>
                 </section>
 
 
                 <section>
-                    <h2>10. Data Security</h2>
+                    <h2>10. Data Retention</h2>
 
                     <p>
-                        Reasonable technical and organizational measures are
-                        used to protect information handled by StatusWatch.
+                        StatusWatch retains configuration, blacklist, message,
+                        and incident-tracking information only for as long as it
+                        is reasonably necessary for the functionality described
+                        in this policy.
                     </p>
 
                     <p>
-                        These measures may include access controls, restricted
-                        configuration access, environment-based credential
-                        management, and other appropriate safeguards.
-                    </p>
-
-                    <p>
-                        However, no electronic storage or transmission system
-                        can be guaranteed to be completely secure.
-                    </p>
-                </section>
-
-
-                <section>
-                    <h2>11. Data Retention</h2>
-
-                    <p>
-                        StatusWatch retains operational and configuration
-                        information only for as long as reasonably necessary
-                        for the purposes described in this Privacy Policy.
-                    </p>
-
-                    <p>
-                        Retention periods may vary depending on the type of
-                        information, operational requirements, and whether the
-                        information is necessary to maintain the application's
-                        functionality.
+                        Retention varies by data type. Incident-tracking state
+                        may be removed after an incident is successfully resolved
+                        and processed. Configuration and blacklist information
+                        may remain until it is changed or removed as part of
+                        normal application administration.
                     </p>
                 </section>
 
 
                 <section>
-                    <h2>12. Removing StatusWatch</h2>
+                    <h2>11. Removing StatusWatch</h2>
 
                     <p>
                         A server administrator may remove StatusWatch from a
@@ -326,27 +307,21 @@
                     </p>
 
                     <p>
-                        Removing the application may prevent StatusWatch from
-                        continuing to access information available through that
-                        server. Previously stored operational or configuration
+                        Removing StatusWatch prevents it from continuing to
+                        operate in that server. Configuration or other stored
                         information may remain for a reasonable period when
-                        necessary for backups, security, troubleshooting, or
-                        legitimate operational purposes.
+                        necessary for operational, security, troubleshooting, or
+                        administrative purposes.
                     </p>
                 </section>
 
 
                 <section>
-                    <h2>13. Children's Privacy</h2>
+                    <h2>12. Children's Privacy</h2>
 
                     <p>
-                        StatusWatch is intended to operate as a Discord
-                        application and does not intentionally collect personal
-                        information from children for the purpose of creating
-                        individual user profiles.
-                    </p>
-
-                    <p>
+                        StatusWatch is a Discord application and does not
+                        intentionally create personal profiles for children.
                         Users should comply with Discord's age requirements and
                         applicable laws when using Discord and StatusWatch.
                     </p>
@@ -354,7 +329,7 @@
 
 
                 <section>
-                    <h2>14. Your Choices</h2>
+                    <h2>13. Your Choices</h2>
 
                     <p>
                         Server administrators control whether StatusWatch is
@@ -362,18 +337,17 @@
                     </p>
 
                     <p>
-                        If you have a question about information associated
-                        with a StatusWatch configuration or believe information
-                        has been processed improperly, you may contact the
-                        StatusWatch operator using the contact method provided
-                        by the StatusWatch project or its associated GitHub
-                        repository.
+                        If you have questions about information associated with
+                        StatusWatch or believe information has been processed
+                        improperly, you may contact the StatusWatch operator
+                        through the contact method provided by the StatusWatch
+                        project or its associated website.
                     </p>
                 </section>
 
 
                 <section>
-                    <h2>15. Changes to This Privacy Policy</h2>
+                    <h2>14. Changes to This Privacy Policy</h2>
 
                     <p>
                         This Privacy Policy may be updated from time to time to
@@ -389,13 +363,13 @@
 
 
                 <section>
-                    <h2>16. Contact</h2>
+                    <h2>15. Contact</h2>
 
                     <p>
                         Questions or concerns regarding this Privacy Policy
                         should be directed to the StatusWatch operator through
                         the contact method provided by the StatusWatch project
-                        or its associated GitHub repository.
+                        or its associated website.
                     </p>
                 </section>
 
@@ -404,12 +378,10 @@
                     <strong>Important:</strong>
 
                     <p>
-                        This Privacy Policy is provided as a practical template
-                        for the StatusWatch project and is not legal advice.
-                        If StatusWatch becomes a commercial service, processes
-                        significant amounts of personal information, or is used
-                        across multiple jurisdictions, professional legal review
-                        is recommended.
+                        This Privacy Policy is provided for the StatusWatch
+                        project and is not legal advice. Professional legal
+                        review may be appropriate if StatusWatch expands
+                        significantly or its data practices change.
                     </p>
                 </section>
 
