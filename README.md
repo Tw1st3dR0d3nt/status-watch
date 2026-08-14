@@ -19,7 +19,7 @@ StatusWatch monitors supported service incidents and delivers notifications dire
 ## 📸 Examples
 
 <p align="center">
-  <img src="docs/images/incident-example.png" alt="StatusWatch incident notification" width="40%">
+  <img src="docs/images/incident-example.png" alt="StatusWatch incident notification" width="38%">
   <img src="docs/images/all-clear-example.png" alt="StatusWatch all-clear notification" width="52%">
 </p>
 
