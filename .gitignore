@@ -16,6 +16,7 @@ venv/
 env/
 
 # StatusWatch runtime data
+**/data/
 **/incidents.json
 **/config.json
 **/*.backup
