@@ -8,6 +8,20 @@ StatusWatch monitors supported service incidents and delivers notifications dire
 
 ---
 
+## 🧭 Navigation
+
+- [Features](#-features)
+- [Proprietary Software](#-proprietary-software)
+- [Example](#-example)
+- [Commands](#-commands)
+- [Incident Notifications](#-incident-notifications)
+- [Getting Started](#getting-started)
+- [Service Availability](#-service-availability)
+- [Privacy](#-privacy)
+- [Legal](#-legal)
+
+---
+
 ## ✨ Features
 
 - 🚨 **Incident monitoring** — Receive notifications when supported services report incidents.
