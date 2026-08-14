@@ -4,6 +4,8 @@
 
 StatusWatch monitors supported service incidents and delivers notifications directly to Discord, keeping your community informed when something goes wrong.
 
+[![Add StatusWatch to Discord](https://img.shields.io/badge/Add%20StatusWatch%20to%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1534996220710486229)
+
 ---
 
 ## ✨ Features
@@ -11,7 +13,7 @@ StatusWatch monitors supported service incidents and delivers notifications dire
 * 🚨 **Incident monitoring** — Receive notifications when supported services report incidents.
 * 🔔 **Discord notifications** — Deliver incident updates directly to a configured channel.
 * ⚙️ **Simple configuration** — Configure StatusWatch directly through Discord slash commands.
-* 💬 **Server-friendly** — Designed for straightforward setup and use in Discord communities.
+* 🔧 **Administrator controls** — Configure notification settings directly from Discord.
 
 ---
 
@@ -49,21 +51,15 @@ The information available may vary depending on the incident and the monitored s
 
 ## ⚙️ Getting Started
 
-1. Add **StatusWatch** to your Discord server.
-2. Ensure it has the permissions required to send messages in your desired notification channel.
-3. Run:
+1. Add StatusWatch to your Discord server.
+2. Run `/setincidentchannel`.
+3. Select the channel where incident notifications should be posted.
 
-```text
-/setincidentchannel
-```
-
-4. Select the channel where incidents should be posted.
-
-That's it. StatusWatch is ready to monitor supported incidents.
+StatusWatch is ready to monitor supported incidents.
 
 ---
 
-## 🔔 Reliability
+## 🔔 Service Availability
 
 StatusWatch is designed to provide timely incident information, but notifications may occasionally be delayed or unavailable due to Discord, network connectivity, monitored services, or other external dependencies.
 
@@ -75,14 +71,7 @@ StatusWatch should not be considered a replacement for official service-status s
 
 StatusWatch is designed to process only the information necessary to provide its functionality.
 
-It does not intentionally collect:
-
-* Discord passwords
-* Payment information
-* Private messages
-* Unrelated message content
-
-For complete information about how StatusWatch handles data, see the Privacy Policy.
+For details about data collection, usage, and retention, see the [Privacy Policy](https://tw1st3dr0d3nt.github.io/status-watch/privacy.html).
 
 ---
 
