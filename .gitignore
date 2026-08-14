@@ -16,10 +16,10 @@ venv/
 env/
 
 # StatusWatch runtime data
-incidents.json
-config.json
-*.backup
-*.bak
+**/incidents.json
+**/config.json
+**/*.backup
+**/*.bak
 
 # Local/runtime files
 *.log
