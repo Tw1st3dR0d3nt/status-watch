@@ -22,7 +22,6 @@ StatusWatch is a Discord application that monitors service incidents and deliver
 
 StatusWatch monitors supported incident and service-status information and delivers relevant updates to your configured Discord channel.
 
-```text
 ┌─────────────────────┐
 │   Status Monitoring │
 └──────────┬──────────┘
@@ -42,7 +41,6 @@ StatusWatch monitors supported incident and service-status information and deliv
            ▼
       🚨 Incident
        Notification
-```
 
 ---
 
