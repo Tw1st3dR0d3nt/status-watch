@@ -10,10 +10,15 @@ StatusWatch monitors supported service incidents and delivers notifications dire
 
 ## ✨ Features
 
-* 🚨 **Incident monitoring** — Receive notifications when supported services report incidents.
-* 🔔 **Discord notifications** — Deliver incident updates directly to a configured channel.
-* ⚙️ **Simple configuration** — Configure StatusWatch directly through Discord slash commands.
-* 🔧 **Administrator controls** — Configure notification settings directly from Discord.
+- 🚨 **Incident monitoring** — Receive notifications when supported services report incidents.
+- 🔔 **Discord notifications** — Deliver incident updates directly to a configured channel.
+- ⚙️ **Simple configuration** — Configure StatusWatch directly through Discord slash commands.
+
+---
+
+## 📸 Example
+
+![StatusWatch incident notification](docs/images/incident-example.png)
 
 ---
 
