@@ -8,19 +8,6 @@ StatusWatch polls DiscordStatus.com for reported incidents and delivers notifica
 
 ---
 
-## 🧭 Navigation
-
-- [Features](#-features)
-- [Proprietary Software](#-proprietary-software)
-- [Example](#-example)
-- [Commands](#-commands)
-- [Getting Started](#getting-started)
-- [Service Availability](#-service-availability)
-- [Privacy](#-privacy)
-- [Legal](#-legal)
-
----
-
 ## ✨ Features
 
 - 🚨 **Incident monitoring** — Receive notifications when DiscordStatus.com reports an incident.
@@ -58,8 +45,6 @@ Sets the Discord channel where incident notifications will be posted.
 Select the desired channel when prompted.
 
 ---
-
-<a id="getting-started"></a>
 
 ## ⚙️ Getting Started
 
