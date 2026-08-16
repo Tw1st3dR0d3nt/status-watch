@@ -75,9 +75,20 @@ a {
     letter-spacing: -0.02em;
 }
 
+.brand-icon {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 11px;
+    overflow: hidden;
+}
+
 .brand-icon img {
-    width: 18px;
-    height: 18px;
+    width: 22px;
+    height: 22px;
     display: block;
 }
 
