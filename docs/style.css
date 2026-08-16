@@ -76,20 +76,16 @@ a {
 }
 
 .brand-icon {
-    width: 42px;
-    height: 42px;
-    display: flex;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0;
-    border-radius: 11px;
-    overflow: hidden;
-}
-
-.brand-icon img {
-    width: 22px;
-    height: 22px;
-    display: block;
+    border-radius: 9px;
+    color: white;
+    background: linear-gradient(135deg, var(--accent), #3458d4);
+    box-shadow: 0 0 24px var(--accent-glow);
+    font-size: 13px;
 }
 
 nav {
