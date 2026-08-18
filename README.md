@@ -2,7 +2,7 @@
 
 **Real-time incident monitoring for Discord.**
 
-StatusWatch polls DiscordStatus.com for reported incidents and delivers notifications directly to Discord, keeping your community informed when something goes wrong.
+StatusWatch polls DiscordStatus.com for reported incidents and delivers notifications directly to your configured Discord channel, keeping your community informed when something goes wrong.
 
 [![Add StatusWatch to Discord](https://img.shields.io/badge/Add%20StatusWatch%20to%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1534996220710486229)
 
