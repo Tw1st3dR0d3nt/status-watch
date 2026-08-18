@@ -668,3 +668,19 @@ h1 span {
         max-width: 100%;
     }
 }
+
+/* Lock brand icon to 18x18 px on mobile */
+@media (max-width: 800px) {
+    .site-header .brand-icon {
+        width: 18px;
+        height: 18px;
+        flex: 0 0 18px;
+    }
+
+    .site-header .brand-icon img {
+        width: 18px;
+        height: 18px;
+        max-width: 18px;
+        max-height: 18px;
+    }
+}
