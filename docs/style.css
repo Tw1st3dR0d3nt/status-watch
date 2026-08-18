@@ -78,14 +78,8 @@ a {
 .brand-icon {
     width: 30px;
     height: 30px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 9px;
-    color: white;
-    background: linear-gradient(135deg, var(--accent), #3458d4);
-    box-shadow: 0 0 24px var(--accent-glow);
-    font-size: 13px;
+    display: block;
+    flex-shrink: 0;
 }
 
 nav {
@@ -666,21 +660,5 @@ h1 span {
 
     .sidebar-card {
         max-width: 100%;
-    }
-}
-
-/* Lock brand icon to 18x18 px on mobile */
-@media (max-width: 800px) {
-    .site-header .brand-icon {
-        width: 30px;
-        height: 30px;
-        flex: 0 0 30px;
-    }
-
-    .site-header .brand-icon img {
-        width: 30px;
-        height: 30px;
-        max-width: 30px;
-        max-height: 30px;
     }
 }
